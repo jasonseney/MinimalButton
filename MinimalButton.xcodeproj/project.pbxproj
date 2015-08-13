@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2D24401B7BFB88006B922A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D243F1B7BFB88006B922A /* AppDelegate.swift */; };
+		DC2D24421B7BFB88006B922A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D24411B7BFB88006B922A /* ViewController.swift */; };
+		DC2D24451B7BFB88006B922A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2D24431B7BFB88006B922A /* Main.storyboard */; };
+		DC2D24471B7BFB88006B922A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2D24461B7BFB88006B922A /* Images.xcassets */; };
+		DC2D244A1B7BFB88006B922A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2D24481B7BFB88006B922A /* LaunchScreen.xib */; };
+		DC2D24561B7BFB88006B922A /* MinimalButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D24551B7BFB88006B922A /* MinimalButtonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC2D24501B7BFB88006B922A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2D24321B7BFB88006B922A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2D24391B7BFB88006B922A;
+			remoteInfo = MinimalButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC2D243A1B7BFB88006B922A /* MinimalButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinimalButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2D243E1B7BFB88006B922A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2D243F1B7BFB88006B922A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC2D24411B7BFB88006B922A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC2D24441B7BFB88006B922A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC2D24461B7BFB88006B922A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC2D24491B7BFB88006B922A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DC2D244F1B7BFB88006B922A /* MinimalButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinimalButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2D24541B7BFB88006B922A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2D24551B7BFB88006B922A /* MinimalButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalButtonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC2D24371B7BFB88006B922A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2D244C1B7BFB88006B922A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2D24311B7BFB88006B922A = {
+			isa = PBXGroup;
+			children = (
+				DC2D243C1B7BFB88006B922A /* MinimalButton */,
+				DC2D24521B7BFB88006B922A /* MinimalButtonTests */,
+				DC2D243B1B7BFB88006B922A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC2D243B1B7BFB88006B922A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC2D243A1B7BFB88006B922A /* MinimalButton.app */,
+				DC2D244F1B7BFB88006B922A /* MinimalButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC2D243C1B7BFB88006B922A /* MinimalButton */ = {
+			isa = PBXGroup;
+			children = (
+				DC2D243F1B7BFB88006B922A /* AppDelegate.swift */,
+				DC2D24411B7BFB88006B922A /* ViewController.swift */,
+				DC2D24431B7BFB88006B922A /* Main.storyboard */,
+				DC2D24461B7BFB88006B922A /* Images.xcassets */,
+				DC2D24481B7BFB88006B922A /* LaunchScreen.xib */,
+				DC2D243D1B7BFB88006B922A /* Supporting Files */,
+			);
+			path = MinimalButton;
+			sourceTree = "<group>";
+		};
+		DC2D243D1B7BFB88006B922A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC2D243E1B7BFB88006B922A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC2D24521B7BFB88006B922A /* MinimalButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2D24551B7BFB88006B922A /* MinimalButtonTests.swift */,
+				DC2D24531B7BFB88006B922A /* Supporting Files */,
+			);
+			path = MinimalButtonTests;
+			sourceTree = "<group>";
+		};
+		DC2D24531B7BFB88006B922A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC2D24541B7BFB88006B922A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC2D24391B7BFB88006B922A /* MinimalButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2D24591B7BFB88006B922A /* Build configuration list for PBXNativeTarget "MinimalButton" */;
+			buildPhases = (
+				DC2D24361B7BFB88006B922A /* Sources */,
+				DC2D24371B7BFB88006B922A /* Frameworks */,
+				DC2D24381B7BFB88006B922A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinimalButton;
+			productName = MinimalButton;
+			productReference = DC2D243A1B7BFB88006B922A /* MinimalButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC2D244E1B7BFB88006B922A /* MinimalButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2D245C1B7BFB88006B922A /* Build configuration list for PBXNativeTarget "MinimalButtonTests" */;
+			buildPhases = (
+				DC2D244B1B7BFB88006B922A /* Sources */,
+				DC2D244C1B7BFB88006B922A /* Frameworks */,
+				DC2D244D1B7BFB88006B922A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2D24511B7BFB88006B922A /* PBXTargetDependency */,
+			);
+			name = MinimalButtonTests;
+			productName = MinimalButtonTests;
+			productReference = DC2D244F1B7BFB88006B922A /* MinimalButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC2D24321B7BFB88006B922A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Tumblr;
+				TargetAttributes = {
+					DC2D24391B7BFB88006B922A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DC2D244E1B7BFB88006B922A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DC2D24391B7BFB88006B922A;
+					};
+				};
+			};
+			buildConfigurationList = DC2D24351B7BFB88006B922A /* Build configuration list for PBXProject "MinimalButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC2D24311B7BFB88006B922A;
+			productRefGroup = DC2D243B1B7BFB88006B922A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC2D24391B7BFB88006B922A /* MinimalButton */,
+				DC2D244E1B7BFB88006B922A /* MinimalButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC2D24381B7BFB88006B922A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2D24451B7BFB88006B922A /* Main.storyboard in Resources */,
+				DC2D244A1B7BFB88006B922A /* LaunchScreen.xib in Resources */,
+				DC2D24471B7BFB88006B922A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2D244D1B7BFB88006B922A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC2D24361B7BFB88006B922A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2D24421B7BFB88006B922A /* ViewController.swift in Sources */,
+				DC2D24401B7BFB88006B922A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2D244B1B7BFB88006B922A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2D24561B7BFB88006B922A /* MinimalButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC2D24511B7BFB88006B922A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC2D24391B7BFB88006B922A /* MinimalButton */;
+			targetProxy = DC2D24501B7BFB88006B922A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC2D24431B7BFB88006B922A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2D24441B7BFB88006B922A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC2D24481B7BFB88006B922A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2D24491B7BFB88006B922A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC2D24571B7BFB88006B922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC2D24581B7BFB88006B922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC2D245A1B7BFB88006B922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MinimalButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC2D245B1B7BFB88006B922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MinimalButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC2D245D1B7BFB88006B922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MinimalButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinimalButton.app/MinimalButton";
+			};
+			name = Debug;
+		};
+		DC2D245E1B7BFB88006B922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MinimalButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinimalButton.app/MinimalButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC2D24351B7BFB88006B922A /* Build configuration list for PBXProject "MinimalButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2D24571B7BFB88006B922A /* Debug */,
+				DC2D24581B7BFB88006B922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2D24591B7BFB88006B922A /* Build configuration list for PBXNativeTarget "MinimalButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2D245A1B7BFB88006B922A /* Debug */,
+				DC2D245B1B7BFB88006B922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC2D245C1B7BFB88006B922A /* Build configuration list for PBXNativeTarget "MinimalButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2D245D1B7BFB88006B922A /* Debug */,
+				DC2D245E1B7BFB88006B922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC2D24321B7BFB88006B922A /* Project object */;
+}
